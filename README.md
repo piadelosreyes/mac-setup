@@ -1,5 +1,5 @@
 #### Mac setup
 
 ```sh
-sh <(curl -s "https://raw.githubusercontent.com/piadelosreyes/macos-setup/master/install.sh")
+sh -c "$(curl -sSL https://raw.githubusercontent.com/piadelosreyes/macos-setup/master/install.sh)"
 ```
