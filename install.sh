@@ -23,12 +23,17 @@ echo | /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew
 echo "Disabling Homebrew analytics"
 brew analytics off
 
+brew tap \
+  homebrew/dupes
+  homebrew/php
+
 echo "Installing command line utilities from Homebrew"
 brew install \
   git \
   node \
   python \
   tree \
+  composer \
   atom \
   wget \
   yarn \
